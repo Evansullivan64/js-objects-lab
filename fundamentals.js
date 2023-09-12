@@ -14,6 +14,13 @@ const aCar = {
         number:"1058"
     }
   };
+
+  aCar.milage = 10000
+  aCar.color = {
+exterior:"red",
+interiorFabric: "leather",
+shade: "cream"
+  }
   
   //console.log(aCar.owner);
   console.log(aCar.owner + ' drives a ' + aCar.type.make)
